@@ -1,10 +1,7 @@
-import Header from './Header'
-
 const Home = () => {
-    return ( 
-        
+    return (         
         <main>
-             <Header />
+             
         <article className='newWay'>
             <div>
             <img src="../assets/img/Thousand2.png" alt=""/>

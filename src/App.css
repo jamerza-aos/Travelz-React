@@ -63,12 +63,17 @@ nav a:hover{
   background-color: white;
   color: #FB8F1D;
 }
+/* /////////// Heaerd ////////////*/
+.HeaderMain{
+  width:90%;
+  margin-left: 10%;
+}
 
-.HomeSection{
+.HeaderSection{
   display: flex;
 }
 
-.HomeSection div{
+.HeaderSection div{
   height: 50%;
 }
 

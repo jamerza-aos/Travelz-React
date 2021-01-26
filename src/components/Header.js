@@ -1,11 +1,11 @@
 const Header = () => {
     return ( 
-        <main className="HomeMain">
+        <main className="HeaderMain">
             <img className="scoar" src="../assets/img/scoar.png" alt=""/>
             <img className="plus" src="../assets/img/plus.png" alt=""/>
 
             {/* <Navigation /> */}
-            <section className="HomeSection">
+            <section className="HeaderSection">
                 <div className="Explore">
                     <h1>Explore and Travel</h1>
                     <h4>Holiday finder</h4>

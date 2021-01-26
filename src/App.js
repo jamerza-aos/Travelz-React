@@ -4,6 +4,7 @@ import About from './components/About'
 import Partner from './components/Partner'
 import Navigation from './components/Navigation'
 import Footer from './components/Footer'
+import Header from './components/Header'
 import './App.css';
 
 import {
@@ -17,6 +18,7 @@ function App() {
     <Router>
 
       <Navigation/>
+      <Header />
       <Switch>
         <Route path="/Home" exact>
           <Home />

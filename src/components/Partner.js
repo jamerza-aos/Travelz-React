@@ -1,6 +1,11 @@
+
 const Partner = () => {
     return (  
-        <h1>Partner</h1>
+        <main>
+            
+            <h1>Partner</h1>
+        </main>
+        
     );
 }
  
