@@ -246,4 +246,85 @@ color: #000000;
 }
 
 
+/* ///////////////// Destinations /////////// */
+.DesMain{
+  width:90%;
+  margin: 10% 0 10% 10%;
+}
+.Featured{
+  display: flex;  
+}
+.Featured h1{
+  font-size: 36px;
+}
+.Featured h4{
+  font-size: 17px;
+  color: #FB8F1D;
+  padding-left: 50%;
+  margin-top: 2%;
+}
+/* .Featured h4::after{
+  content:url(./assets/img/vector1.png);
+} */
+
+.photo{
+  width:83%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+.Raja{
+  background: url(./assets/img/image4.png)center/ cover no-repeat;
+  border-radius: 10px;
+  height: 45.2vh;
+  width: 24%;
+}
+
+.text{
+  background-color: white;
+  position:absolute;
+  margin-top: 21.5%;
+  border-radius: 0px 6px 0px 0px;
+  padding:1% ;
+}
+
+.Fan{
+  background: url(./assets/img/china.png)center/ cover no-repeat;
+  border-radius: 10px;
+  height: 45.2vh;
+  width: 24%;
+}
+
+.Vevey{
+  background: url(./assets/img/swi.png)center/ cover no-repeat;
+  border-radius: 10px;
+  height: 45.2vh;
+  width: 24%;
+}
+
+.Skadar{
+  background: url(./assets/img/montenegro.png)center/ cover no-repeat;
+  border-radius: 10px;
+  height: 45.2vh;
+  width: 24%;
+}
+#scoarDes{
+  position:absolute ;
+  margin-left: 65%;
+}
+#plusDes{
+  position:absolute ;
+  margin-left: -7%;
+  margin-top: 40%;
+}
+
+#scoarDes2{
+  position:absolute ;
+  margin-left: 33%;
+  margin-top: -15%;
+ 
+}
+
+
 
