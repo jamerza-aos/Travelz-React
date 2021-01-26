@@ -3,6 +3,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Partner from './components/Partner'
 import Navigation from './components/Navigation'
+import Footer from './components/Footer'
 import './App.css';
 
 import {
@@ -14,20 +15,21 @@ import {
 function App() {
   return (
     <Router>
+
       <Navigation/>
       <Switch>
         <Route path="/Home" exact>
           <Home />
         </Route>
-        <Route path="/Destinations" exact>
+        <Route path="/Destinations" >
           <Destinations />
         </Route>
 
-        <Route path="/about" component={About} exact />
+        <Route path="/about" component={About}  />
 
-        <Route path="/partner" component={Partner} exact />
+        <Route path="/partner" component={Partner}  />
       </Switch>
-
+    <Footer />
     </ Router>
   );
 }
