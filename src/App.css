@@ -6,6 +6,9 @@
 a{
   text-decoration: none;
 }
+ul{
+  list-style-type: none;
+}
 
 main{
   width: 90%;
@@ -325,6 +328,129 @@ color: #000000;
   margin-top: -15%;
  
 }
+
+
+
+/* ///////////// partner ///////////// */
+.partnerSec{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 20%;
+
+}
+
+.partArticle1 {
+  width:100%;
+  display: flex;
+}
+.partArticle1 h1{
+    font-size: 36px;
+    margin-bottom: 10%;
+}
+.partArticle1 ul{ 
+  margin-top: 20%;
+}
+
+.starts img{
+  margin-right: 2%;
+}
+.“Quisque{
+  font-size: 24px;
+  color: #000000;
+  line-height:36px;
+  width: 65%;
+  margin-top: 5%;
+}
+
+.Edward{
+  font-size: 22px;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 5%;
+}
+.Founder{
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 18px;
+  margin-top: 2%;
+}
+
+
+.right{
+  background-color: white;
+  position:absolute;
+  margin-top: 29.3%;
+  margin-left: 17%;
+  border-radius: 6px 0px 0px 0px;
+  padding:1% ;
+  width: 15%;
+}
+.right img{
+  margin-left: 6%;
+}
+
+.partArticle1 div:nth-of-type(2) {
+  background: url(./assets/img/image6.png) no-repeat;
+  height: 60vh;
+  width: 90%;
+  border-radius: 15px;
+  margin-bottom: 10%;
+}
+
+.SECT h1{
+  font-size: 36px;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+.SECT span{
+  font-size: 20px;
+  color: #FB8F1D;
+  padding-left: 55%;
+}
+
+ .trending{
+   display: flex;
+   justify-content: space-between;
+   width: 80%;
+   margin-left: 5%;
+   margin-bottom: 30%;
+ }
+ .trending div{
+   width: 22%;
+ }
+
+ .trending img{
+   height: 30vh;
+   width: 100%;
+   border-radius: 8px;
+ }
+ .trending h1{
+    width:100%;
+    font-size: 17px;
+    line-height:25px;
+    color: #000000;
+    margin-top: 2%;
+}
+
+
+.trending p{
+  font-size: 15px;
+  line-height:26px;
+  color: #7D7987;
+  margin-top: 2%;
+  padding-bottom: 7%;
+}
+.trending a{
+  color: #FB8F1D;
+  margin-top: 20%;
+
+}
+
+
+
+
+
+
+
 
 
 
