@@ -3,6 +3,8 @@ const Partner = () => {
     return (  
         <main className="partnerMain">
            <section className="partnerSec">
+           <img className="scoarP1" src="../assets/img/scoar.png" alt=""/>
+            <img className="plusP1" src="../assets/img/plus.png" alt=""/>
                <h1>Testimonials</h1>
                <article className="partArticle1">
                    <div>
@@ -32,6 +34,10 @@ const Partner = () => {
            </section>
 
             <section className="SECT">
+            <img className="scoarP2" src="../assets/img/scoar.png" alt=""/>
+            <img className="pluP2" src="../assets/img/plus.png" alt=""/>
+
+
             <h1>Trending stories <span>View all</span></h1>
                 <article className="trending">
                 <div>
